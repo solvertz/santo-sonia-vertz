@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="grid-contacto">
+
+        <header class="header__contacto">
+            <div class="logo">
+                <img src="../img/logo.png" alt="logo">
+            </div>
+            <nav class="menu__navegacion">
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./nosotros.html">Nosotros</a> </li>
+                    <li><a href="./servicios.html">Servicios</a></li>
+                    <li><a href="./contacto.html">Contacto</a></li>
+                    <li><a href="./ubicacion.html">Ubicación</a> </li>
+                </ul>
+            </nav>
+            <div class="imagen__fondo">
+                <!--foto portada-->
+
+            </div>
+        </header>
+        <main class="formulario">
+
+            <fieldset>
+                <legend>Ingrese sus datos</legend>
+                <form action="method ="get enctype="text/plain" class="ingresoDatos">
+                    
+                    <label for="surname">Apellido:</label>
+                    <input type="text" id="surname" placeholder="Ingrese su apellido" required>
+                    
+                    
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" placeholder="Ingrese su nombre" required>
+                    
+                    <label for="document">DNI:</label>
+                    <input type="numbers" id="document" placeholder="Ingrese su DNI" required>
+                    
+                    <p>Seleccione el sexo</p>
+                    <label for="">Masculino</label>
+                    <input type="radio" name="sexo" value="masculino">
+                    <label for="">Femenino</label>
+                    <input type="radio" name="sexo" value="femenino">
+                    
+                    <p>Seleccione Nacionalidad</p>
+                    <label for="paises">Nacionalidad</label>
+                    <select name="paises" id="paises">
+                        
+                        <option value="arg"selected>Argentina</option>
+                        <option value="uru">Uruguaya</option>
+                        <option value="chi">Chilena</option>
+                        <option value="col">Peruana</option>
+                        
+                    </select>
+                    
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" placeholder="Ingrese su E-mail" required>
+                    
+                    <label for="pass">Contraseña:</label>
+                    <input type="password" id="pass" placeholder="Ingrese su contraseña" required>
+                    
+                    <label for="comentarios">Preguntas y sugerencias</label>
+                    
+                    
+                    <textarea name="comentarios" id="comentarios" cols="30" rows="10"></textarea>
+                    
+                    <input type="submit" value="Enviar" class="botton">
+                    <input type="reset" value="Borrar todo" class="botton">
+                    
+                    <p>Acepto términos y condiciones</p>
+                    <label for="si acepto"></label>
+                    
+                    <input type="checkbox" name="si acepto" value="si acepto">si acepto
+                    <label for="no acepto"></label> 
+                    <input type="checkbox" name="no acepto" value="no acepto">no acepto <!--pregunatar --> 
+                </form>
+            </fieldset>
+        </main>
+        
+        
+        
+        
+        
+        
+        <footer class="pie__contac">
+            <p>Seguinos...</p>
+            <a href="">Instagram</a>
+            <a href="">Facebook</a>
+            
+            
+        </footer>
+        
+    </div>
+        
+        
+        
+        
+        
+    </body>
+</html>
