@@ -65,7 +65,7 @@
     }
     .fotos__trabajos img:hover {
         filter: none;
-        width: 600px;
+        width: 800px;
     }
     .fotos__trabajos {
         transition: width 2s;
