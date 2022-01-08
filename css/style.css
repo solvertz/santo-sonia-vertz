@@ -47,8 +47,11 @@
         grid-area: mapa;
         background-color: darkblue;
         height: 300px;
-        
+
+    
     }
+    
+
     .fotos__trabajos {
         grid-area: section;
         background-color: slateblue;
@@ -100,7 +103,7 @@
     background-color: black;
     border-radius: 5px;
     border: solid white;
-    position: fixed;
+    
 }
 .menu__navegacion ul li {
     display: inline;
@@ -118,11 +121,30 @@
     font-size: 30px;
 
 }
+/* logo*/
+@keyframes mi-efecto {
+    0% {
+        width: 100px;
+    }
+    100%{
+        width: 500px;
+    }
+}
+.logo {
+    height: 100px;
+    animation-name: mi-efecto;
+    animation-iteration-count: 2;
+    animation-delay: 3s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+
+}
 
 
 
 .info__importante p {
     color: oldlace;
+    margin: 25px;
     letter-spacing: 3px;
     text-align: center;
     font-size: 30px;
@@ -141,8 +163,9 @@
     color: thistle;
     text-align: center;
 }
+
 .mapa iframe {
-    width: 100%;
+    width: 50%;
     height: 100%;
 }
 /* media queries home*/
