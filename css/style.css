@@ -235,6 +235,8 @@
     .info__nosotros {
         grid-area: texto;
         background-color: brown;
+        margin-top: 50px;
+        padding: 25px;
     }
     
     .footer__nosotros {
