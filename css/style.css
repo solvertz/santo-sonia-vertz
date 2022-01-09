@@ -34,8 +34,9 @@
     }
     main {
         grid-area: main;
-        background-color: gray;
-        grid-column: 1/4;  
+        background: linear-gradient(grey, black);
+        grid-column: 1/4;
+         
     }
     
     section {
